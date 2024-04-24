@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* font-family: "Noto Sans KR", sans-serif; 100,300,400,500,700,900 */
+
+/* layout */
+#wrap {
+    width: 100%;
+}
+
+#header {
+    background-color: #fff;
+}
+
+#banner {
+    width: 100%;
+    height: 470px;
+    background-color: #a0d1ee;
+}
+
+#contents {}
+
+#footer {}
+
+/* container */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+/* con1 layout */
+#con1 {
+    width: 100%;
+    height: 940px;
+    background-color: #f5f6f8;
+}
+
+#con2 {
+    width: 100%;
+    height: 550px;
+    background-color: #efefef;
+}
+
+/* footer layout */
+#footer_notice {
+    width: 100%;
+    height: 71px;
+    background-color: #fff;
+}
+
+#footer_info {
+    width: 100%;
+    height: 242px;
+    background-color: #f7f8f9;
+}
+
+/* header */
+.header {
+    overflow: hidden;
+    font-family: 'HanaB';
+}
+
+.header li {
+    background: url(../img/bar1.gif) no-repeat 0 14px;
+
+}
+
+.header li a {
+    display: block;
+    padding: 8px 15px;
+    font-size: 13px;
+    margin: 7px 0;
+}
+
+.header .list1 {
+    float: left;
+    overflow: hidden;
+}
+
+.header .list1 li {
+    float: left;
+}
+
+.header .list1 li.green a {
+    background: #00907f;
+    color: #fff;
+    border-radius: 3px;
+
+}
+
+.header .list1 li a {
+    color: #333;
+}
+
+.header .list2 {
+    float: right;
+    overflow: hidden;
+}
+
+.header .list2 li {
+    float: left;
+}
+
+.header .list2 li:first-child {}
+
+.header .list2 li:last-child a {
+    padding-right: 0;
+}
+
+.header .list2 li.log {
+    margin-right: 13px;
+    background: none;
+}
+
+.header .list2 li.log a {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px 10px;
+    margin: 11px 0;
+}
+
+.header .list2 li a {
+    color: #797979;
+}
+
+/* ban right */
+.ban_right {
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.ban_right .br_tit {
+    background: #fff;
+    height: 160px;
+    padding: 45px 180px 60px 100px;
+
+}
+
+.ban_right .br_tit h3 {
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 44px;
+    font-weight: 700;
+}
+
+.ban_right .br_tit p {
+    padding-top: 50px;
+    font-size: 14px;
+    position: relative;
+}
+
+.ban_right .br_tit p::before {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #00907f;
+    position: absolute;
+    left: 0;
+    top: 24px;
+}
+
+.ban_right .br_tit p strong {
+    color: #00907f;
+}
+
+.ban_right .br_tit .login_btn {
+    position: absolute;
+    right: 60px;
+    top: 55px;
+}
+
+.ban_right .br_tit .login_btn ul {}
+
+.ban_right .br_tit .login_btn li {
+    margin-bottom: 1px;
+}
+
+.ban_right .br_tit .login_btn li a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ban_right .br_tit .login_btn li.lb1 a {
+    background: #db3360 url(../img/ico_login.png) no-repeat center 17px;
+    padding-top: 50px;
+    /* box-sizing: border-box; */
+    height: 30px;
+    transition: background 0.3s ease;
+}
+
+.ban_right .br_tit .login_btn li.lb1 a:hover {
+    background-color: #c4204c;
+}
+
+.ban_right .br_tit .login_btn li.lb2 a {
+    background-color: #3c3f44;
+    line-height: 80px;
+    transition: background 0.3s ease;
+}
+
+.ban_right .br_tit .login_btn li.lb2 a {
+    background-color: #333;
+
+}
+
+.ban_right .br_btn {
+    background-color: #00907f;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.ban_right .br_btn ul {
+    overflow: hidden;
+}
+
+.ban_right .br_btn li {
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.ban_right .br_btn li::before {
+    content: '';
+    width: 1px;
+    height: 14px;
+    background-color: #62bdb1;
+    position: absolute;
+    left: 0;
+    top: 19px;
+}
+
+.ban_right .br_btn li a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ban_right .br_btn li:first-child:before {
+    width: 0;
+    height: 0;
+}
+
+/* nav */
+#nav {
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    font-family: 'HanaB';
+    padding: 30px 0;
+}
+
+#nav .gnb {
+    padding-left: 60px;
+}
+
+#nav .gnb li {
+    display: inline;
+    padding: 10px;
+}
+
+#nav .gnb li a {
+    font-size: 17px;
+    padding: 10px 16px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#nav .gnb li a:hover {
+    background-color: #00907f;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#nav .gnb_right {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+
+}
+#nav .gnb_right {overflow: hidden;}
+#nav .gnb_right li {
+    float: left;
+    margin-right: 10px;
+}
+
+#nav .gnb_right li a {
+    display: block;
+    padding: 11px 20px;
+    font-size: 14px;
+}
+
+#nav .gnb_right li.gr1 a {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+#nav .gnb_right li.gr1 a:hover {
+    background-color: #f4f4f4;
+    color: #000;
+}
+#nav .gnb_right li.gr2 a {
+    border: 1px solid #404b57;
+    background-color: #404b57;
+    color: #fff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+#nav .gnb_right li.gr2 a:hover {
+    background-color: #000;
+}
+#nav .gnb_search {
+    position: absolute;
+    right:290px ;
+    top: 25px;
+    background: url(../img/gnb_search.png) no-repeat;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+#nav .gnb_event {
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 14px;
+}
+/* card */
+#card {}
+
+/* event */
+#event {}
