@@ -333,14 +333,17 @@
 #nav .gnb_event {
     position: absolute;
     left: 20px;
-    top: -30px;
-    width: 100px;
-    height: 30px;
+    top: -35px;
     background-color: #000;
     color: #fff;
     text-transform: uppercase;
     line-height: 30px;
     font-size: 14px;
+    padding: 3px 23px 2px 23px;
+
+}
+#nav .gnb_event i {
+    padding-left: 10px;
 }
 /* card */
 #card {}
