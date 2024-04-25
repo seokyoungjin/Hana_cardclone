@@ -105,9 +105,9 @@
 
 
 
-.header .list2 li:last-child a {
+/* .header .list2 li:last-child a {
     padding-right: 0;
-}
+} */
 
 .header .list2 li.log {
     margin-right: 13px;
@@ -382,9 +382,7 @@
     padding: 18px 47px 0;
     box-sizing: border-box;
 }
-.ic8 .card_img {
-    padding: 18px 47px 0;
-}
+
 .card_img h4 {
     font-size: 14px;
     color: #000;
@@ -443,7 +441,10 @@
     text-align: center;
     border-radius: 3px;
 }
+.ie8 .card_img .card_link li a {
+    padding: 10px 8px;
 
+}
 /* card_desc */
 .card_desc {}
 
