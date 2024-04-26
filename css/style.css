@@ -461,7 +461,7 @@
     font-weight: 500;
 }
 .card_desc dd.cd1 {
-    margin: 33px 0;
+    margin: 26px 0 45px 0;
     font-size: 23px;
     color: #000;
 }
@@ -491,4 +491,25 @@
     color: #000;
 }
 /* event */
-#event {}
+#event { overflow: hidden;  margin-top: 10px; }
+#event .event_box1 {  float: left; }
+#event .event_box2 { float: left;}
+#event .event_box3 { width: 300px; height: 564px; float: left; background-color: #999;}
+
+/* event_box */
+.event_box1 {text-align: center; color: #fff;}
+.event_box1 .eb_desc {font-size: 16px; font-weight: 300s;}
+.event_box1 .eb_tit {font-size: 20px;}
+.event_box1 div {
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.event_box1 .eb_banner1 {width: 300px; height: 188px; background-color: #01937f;}
+.event_box1 .eb_banner2 {width: 300px; height: 188px; background-color: #766e9c;}
+.event_box1 .eb_banner3 {width: 300px; height: 188px; background-color: #43587d;}
+
+.event_box2 {}
+.event_box2 .eb_banner4{width: 600px; height: 376px; background-color: #666;}
+.event_box2 .eb_banner5{width: 600px; height: 188px; background-color: #777;}
+
+.event_box3 {}
