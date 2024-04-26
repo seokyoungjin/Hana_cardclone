@@ -515,7 +515,9 @@
     float: left;
 }
 
-#event .event_box3 {}
+#event .event_box3 {
+    float: left; 
+}
 
 /* event_box */
 .event_box1 {
@@ -533,26 +535,26 @@
 }
 
 .event_box1 div {
-    padding-top: 100px;
+    padding-top: 110px;
     box-sizing: border-box;
 }
 
 .event_box1 .eb_banner1 {
     width: 300px;
     height: 188px;
-    background: #01937f url(../img/event_icon1.png) no-repeat center top;
+    background: #01937f url(../img/event_icon1.png) no-repeat center 25px;
 }
 
 .event_box1 .eb_banner2 {
     width: 300px;
     height: 188px;
-    background: #766e9c;
+    background: #766e9c url(../img/event_icon2.png) no-repeat center 25px;
 }
 
 .event_box1 .eb_banner3 {
     width: 300px;
     height: 188px;
-    background: #43587d;
+    background: #43587d url(../img/event_icon3.png) no-repeat center 25px;
 }
 
 .event_box2 {}
@@ -560,17 +562,15 @@
 .event_box2 .eb_banner4 {
     width: 600px;
     height: 376px;
-    background: #fff;
+    background: #666;
 }
 
 .event_box2 .eb_banner5 {
     width: 600px;
     height: 188px;
-    background-color: #8cc7e9;
-}
+    background: #8cc7e9;
+}   
 
 .event_box3 {
-    width: 300px;
-    height: 564px;
-    background-color: #d7567e;
+    width: 300px; height: 564px;  background: #d7567e;
 }
