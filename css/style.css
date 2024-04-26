@@ -472,7 +472,6 @@
 .card_desc dd.cd1::after{
     content: '"';
     color: #00907f;
-
 }
 .card_desc dd.cd2 li  {
     display: inline;
